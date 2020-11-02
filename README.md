@@ -1,6 +1,6 @@
 # TensorFlow implementation of the U-net
 
-[![Build Status](https://travis-ci.com/zaccharieramzi/my-python-package-template.svg?token=wHL4tmyGD3TP6bSo6Mdh&branch=master)](https://travis-ci.com/zaccharieramzi/my-python-package-template)
+[![Build Status](https://travis-ci.com/zaccharieramzi/tf-unet.svg?branch=master)](https://travis-ci.com/zaccharieramzi/tf-unet)
 
 The U-net is a network introduced by Olaf Ronneberger et al. in “U-Net: Convolutional Networks for Biomedical Image Segmentation”, MICCAI 2015.
 If you use this network, please cite their work appropriately.
