@@ -72,8 +72,8 @@ class Unet(Model):
             self,
             n_output_channels=1,
             kernel_size=3,
-            layers_n_channels=[4],
-            layers_n_non_lins=1,
+            layers_n_channels=[64, 128, 256, 512, 1024],
+            layers_n_non_lins=2,
             non_linearity='relu',
             **kwargs,
         ):

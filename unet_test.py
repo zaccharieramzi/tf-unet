@@ -7,6 +7,7 @@ from unet import Unet
 def test_unet():
     model = Unet(
         layers_n_channels=[4, 8],
+        layers_n_non_lins=1,
     )
     shape = [1, 32, 32, 1]
     res = model(tf.zeros(shape))
@@ -16,6 +17,7 @@ def test_unet():
 def test_unet_change():
     model = Unet(
         layers_n_channels=[4, 8],
+        layers_n_non_lins=1,
     )
     x = tf.random.normal((1, 64, 64, 1))
     y = x
